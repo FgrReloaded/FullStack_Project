@@ -1,0 +1,35 @@
+.search-bar {
+  all: unset;
+  appearance: none;
+  border: none;
+  background: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+
+  display: block;
+  border: 1px solid black;
+  width: 400px;
+  height: 45px;
+  margin: 0 auto;
+  padding-left: 20px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+
+.search-bar::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+
+
+.search-bar::placeholder{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.container{
+    height: 100px;
+}

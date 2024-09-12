@@ -1,0 +1,39 @@
+.hero-div{
+    width: 90vw;
+    height: 50vh;
+    background-color: #93785b;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    height: 80%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.text-div h1{
+    font-size: 28px;
+}
+
+.text-div h2{
+    font-size: 35px;
+}
+
+.text-div p{
+    font-size: 20px;
+    width: 70%;
+}
